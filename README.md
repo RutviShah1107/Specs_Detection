@@ -12,11 +12,5 @@ This is a light-weight glasses detector written in Python for real-time videos. 
 ## Method
 To determine the presence of glasses, the edgeness value (y-direction) of two important regions on the aligned face are computed. Then a indicator is constructed based on these values to do the classification.
 
-
-## What's Next
-A threshold is manually chosen in this specific version, which is based on experiment results. The next goal is to develop an algorithm that can choose the threshold automatically in order to enchance robustness.
-
-Welcome to star, fork and try it on your own! :blush:
-
 ## Reference
 Jiang, X., Binkert, M., Achermann, B. et al. Pattern Analysis & Applications (2000) 3: 9. https://doi.org/10.1007/s100440050002
